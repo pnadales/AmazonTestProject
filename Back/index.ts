@@ -3,7 +3,7 @@ import { dataRouter } from "./routes/data";
 import { corsMiddleware } from "./middlewares/cors";
 
 const app = express();
-const PORT = 8080;
+const PORT = 3000;
 
 app.use(express.json());
 app.use(corsMiddleware());
